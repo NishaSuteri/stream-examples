@@ -10,10 +10,9 @@ In Java, java.util.Stream represents a stream on which one or more operations ca
 Streams are created on a source, e.g. a java.util.Collection like List or Set. The Map is not supported directly, we can create stream of map keys, values or entries. Stream operations can either be executed sequentially or parallel. when performed parallelly, it is called a parallel stream.
 
 Based on the above points, if we list down the various characteristics of Stream, they will be as follows:
-
-Not a data structure
-Designed for lambdas
-Do not support indexed access
-Can easily be aggregated as arrays or lists
-Lazy access supported
-Parallelizable
+-Not a data structure
+-Designed for lambdas
+-Do not support indexed access
+-Can easily be aggregated as arrays or lists
+-Lazy access supported
+-Parallelizable
